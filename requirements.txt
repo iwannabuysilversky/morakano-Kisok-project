@@ -1,0 +1,24 @@
+# 필요시 수정 후 푸시하세요.
+
+# 1. AI API 통신
+# LLM 프롬프트를 보내고 응답을 받기 위한 필수 패키지
+
+# LMstudio, ChatGPT
+openai
+# Google 기반
+google-generativeai
+# 클로드 등 엔트로픽 기반
+anthropic
+
+# 2. 환경 변수 관리 
+# .env 파일에 저장된 API 키를 파이썬 코드에서 불러옴
+python-dotenv
+
+# 3. STT 모듈 구축을 위한 패키지
+# stt부분 작업자만 받아도 상관 없긴한데 그냥 다 받아놓고 리뷰합시다.
+# 어떤 STT API를 쓸지 결정되면 해당 서비스의 라이브러리로 교체 예정
+
+#STT api 통합 lib
+SpeechRecognition
+# 마이크 접근관련 lib
+pyaudio
