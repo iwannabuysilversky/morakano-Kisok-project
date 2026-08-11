@@ -59,6 +59,8 @@ pip install -r requirements.txt
 # .env 파일 내용 예시
 OPENAI_API_KEY="sk-여기에-발급받은-키를-입력하세요"
 
+아직 미정입니다.
+
 ```
 
 ---
