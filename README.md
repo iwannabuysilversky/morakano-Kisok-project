@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ### 4. 환경 변수(.env) 설정
 
-루트 디렉토리에 있는 `.env.example` 파일을 복사하여 `.env` 파일을 생성하고, 발급받은 API 키를 입력합니다.
+루트 디렉토리에 있는 `.env.example` 파일을 복사하여 `.env` 파일을 생성하고, 발급받은 API 키를 입력합니다.   
 `.env` 파일은 절대 깃허브에 커밋(푸시)하지 마세요!
 
 ```bash
