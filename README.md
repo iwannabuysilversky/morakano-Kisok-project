@@ -14,6 +14,8 @@ morakano-Kiosk 프로젝트입니다.
 * **Language:** 미정
 * **AI & API:** 미정
 * **Environment:**미정
+```
+
 ---
 
 ## Quick Start
@@ -39,7 +41,6 @@ source venv/bin/activate
 # Windows
 python -m venv venv
 venv\Scripts\activate
-
 ```
 
 ### 3. 필수 패키지 설치
