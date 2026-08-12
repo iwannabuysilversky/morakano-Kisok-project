@@ -2,7 +2,6 @@
 
 morakano-Kiosk 프로젝트입니다.
 
-```markdown
 # 🎙️ AI 음성 인식 키오스크 프로젝트
 
 ## 팀원
@@ -16,9 +15,6 @@ morakano-Kiosk 프로젝트입니다.
 
 
 * **AI & API:** 미정
-
-
----
 
 
 ---
