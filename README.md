@@ -13,9 +13,13 @@ morakano-Kiosk 프로젝트입니다.
 
 ## 🛠️ 기술 스택
 * **Language:** python
+
+
 * **AI & API:** 미정
-* **Environment:** 최신버전
-```
+
+
+---
+
 
 ---
 
@@ -25,45 +29,67 @@ morakano-Kiosk 프로젝트입니다.
 
 프로젝트를 로컬 환경에 세팅하는 방법입니다. 아래 명령어들을 순서대로 터미널에 입력해 주세요.
 깃은 알아서 까슈
+### ⚙️ 개발 환경 세팅 (Python 3.11.9)
 
-### 1. 저장소 클론 및 폴더 이동
+* **Environment:** python 3.11.9 (https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)
+
+**1. 파이썬 설치 및 확인**
+* 반드시 **Python 3.11.9** 버전을 설치함.
+* 파이썬 설치 시 첫 화면 하단의 **`Add python.exe to PATH`** 옵션을 무조건 체크해야 함.
+
+**2. 가상환경(venv) 생성**
+* 프로젝트 최상위 폴더(루트 경로) 터미널에서 아래 명령어를 입력하여 가상환경을 생성함.
 ```bash
-git clone https://github.com/iwannabuysilversky/morakano-Kisok-project.git
-cd morakano-Kisok-project
+# 윈도우(Windows) 사용자
+py -3.11 -m venv venv
+
+# 맥(Mac) / 리눅스 사용자
+python3.11 -m venv venv
 
 ```
 
-### 2. 가상환경(venv) 생성 및 활성화
+**3. 가상환경 활성화**
+
+* 생성한 가상환경을 켬. (성공 시 터미널 입력창 맨 앞에 `(venv)`가 표시됨)
 
 ```bash
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# Windows
-python -m venv venv
+# 윈도우(Windows) 사용자
 venv\Scripts\activate
 
-# 비활성화
-deactivate
+# 맥(Mac) / 리눅스 사용자
+source venv/bin/activate
+
 ```
 
+> **※ 윈도우 터미널에서 빨간 글씨로 권한 에러가 날 경우 해결법:**
+> 관리자 권한으로 PowerShell을 실행한 뒤 `Set-ExecutionPolicy Unrestricted`를 입력하고 `Y`를 누른 후 다시 시도함.
 
-### 3. 필수 패키지 설치
+**4. 필수 라이브러리 일괄 설치**
+
+* 가상환경이 켜진 `(venv)` 상태인지 꼭 확인한 후, 프로젝트에 필요한 패키지들을 설치함.
 
 ```bash
 pip install -r requirements.txt
 
 ```
 
-### 4. 환경 변수(.env) 설정
+**5. 가상환경 종료**
+
+* 작업을 마치고 가상환경을 끄고 싶을 때 입력함.
+
+```bash
+deactivate
+
+```
+
+### 환경 변수(.env) 설정
 
 루트 디렉토리에 있는 `.env.example` 파일을 복사하여 `.env` 파일을 생성하고, 발급받은 API 키를 입력합니다.   
 `.env` 파일은 절대 깃허브에 커밋(푸시)하지 마세요!
 
 ```bash
 # .env 파일 내용 예시
-OPENAI_API_KEY="sk-여기에-발급받은-키를-입력하세요"
+="sk-여기에-발급받은-키를-입력하세요"
 
 아직 미정입니다.
 
