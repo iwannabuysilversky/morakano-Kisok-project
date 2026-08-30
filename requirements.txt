@@ -22,3 +22,4 @@ python-dotenv
 SpeechRecognition
 # 마이크 접근관련 lib
 pyaudio
+

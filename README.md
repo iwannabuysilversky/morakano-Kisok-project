@@ -6,7 +6,7 @@ morakano-Kiosk 프로젝트입니다.
 
 ## 팀원
 * **조우성: main.py** 
-* **원대호: 역할미정** 
+* **원대호: stt.py** 
 * **이승준: order_manager.py** 
 * **양현민: llm.py** 
 
